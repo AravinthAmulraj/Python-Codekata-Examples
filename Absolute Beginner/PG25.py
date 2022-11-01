@@ -1,0 +1,30 @@
+
+"""
+Input Description:
+A single line contains an integer N.
+
+Output Description:
+Print the values from N to 1 in a separate line.
+
+Sample Input :
+10
+Sample Output :
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+"""
+
+#Program
+N = int(input())
+for i in range(N,0,-1):
+    print(i)
+
+# syntax of  : range(start, stop, step)
